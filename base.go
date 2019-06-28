@@ -20,12 +20,40 @@
 package main
 
 import (
+	"fmt"
 	"html/template"
 	"strings"
 )
 
-func Tags(columnName string) template.HTML {
-	return template.HTML("`json:" + `"` + columnName + "\"`")
+func Tags1(columnName string) template.HTML {
+	return template.HTML("`json:\"" + columnName + "\"`")
+}
+func Tags2(column TableSchema) template.HTML {
+	pk := ""
+	idx := ""
+	if column.ColumnKey=="PRI" {
+		pk = ";primary_key"
+		idx = "sql:\"unique_index\" "
+	}
+
+	//sql:"index" gorm:"type:int(11);primary key" json:"pid"
+	gormStr := fmt.Sprintf("`%sgorm:\"type:%s%s\" json:\"%s\"`", idx, column.ColumnType, pk, column.ColumnName)
+
+	//fmt.Println(gormStr)
+	return template.HTML(gormStr)
+}
+func Tags(column TableSchema) template.HTML {
+	pk := ""
+	idx := ""
+	if column.ColumnKey=="PRI" {
+		pk = ";unique;unique_index;not null"
+	}
+
+	//sql:"index" gorm:"type:int(11);primary key" json:"pid"
+	gormStr := fmt.Sprintf("`%sgorm:\"type:%s%s\" json:\"%s\"`", idx, column.ColumnType, pk, column.ColumnName)
+
+	//fmt.Println(gormStr)
+	return template.HTML(gormStr)
 }
 
 func Unescaped(x string) interface{} {

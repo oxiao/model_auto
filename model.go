@@ -26,6 +26,8 @@ import (
 	"log"
 	"os"
 	"os/exec"
+
+	//"os/exec"
 	"path"
 	"path/filepath"
 	"strings"
@@ -113,6 +115,7 @@ type ModelInfo struct {
 type TableSchema struct {
 	ColumnName    string `db:"column_name" json:"column_name"`
 	DataType      string `db:"data_type" json:"data_type"`
+	ColumnType      string `db:"column_type" json:"column_type"`
 	ColumnKey     string `db:"column_key" json:"column_key"`
 	ColumnComment string `db:"column_comment" json:"column_comment"`
 }
@@ -123,7 +126,7 @@ func genModelFile(render *template.Template, importName, tableName string) error
 	}
 
 	var tableSchema []TableSchema
-	err := instanceMysql.Raw(`SELECT column_name as column_name, data_type as data_type,column_key as column_key,`+
+	err := instanceMysql.Raw(`SELECT column_name as column_name, column_type as column_type, data_type as data_type,column_key as column_key,`+
 		`column_comment as column_comment from COLUMNS `+
 		` where TABLE_NAME= ? and table_schema = ? `, tableName, DbName).Find(&tableSchema).Error
 	if err != nil {
