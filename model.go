@@ -93,7 +93,9 @@ func ModelGenerate(importName, tableName string, tplFile string) error {
 	fileType = strings.Split(fileType, ".")[0]
 	fileType = strings.Split(fileType, "_")[1]
 
+	nameStr := ""
 	for _, table := range tablaNames {
+		nameStr = nameStr + "&model." + HumpStructName(table.TableName) + "{}, "
 		if (tableName == "") || (tableName != "" && tableName == table.TableName) {
 			err := genModelFile(render, importName, table.TableName, fileType)
 			if err != nil {
@@ -101,6 +103,12 @@ func ModelGenerate(importName, tableName string, tplFile string) error {
 				return err
 			}
 		}
+	}
+
+	// write all model names to a single file
+	err = ioutil.WriteFile("model_list.txt", []byte(nameStr), 0666)
+	if err != nil {
+		fmt.Println("WriteFile model_list.txt err:", err)
 	}
 
 	return nil

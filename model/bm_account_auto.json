@@ -1,0 +1,48 @@
+/** bm_account */
+[
+  {
+    name: "employee_id",
+    field: "employee_id",
+    label: "员工编号",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "code",
+    field: "code",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "pwd",
+    field: "pwd",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "security",
+    field: "security",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "last_login",
+    field: "last_login",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+]

@@ -1,0 +1,39 @@
+/** jxgc_dzwt */
+[
+  {
+    name: "dzwt_id",
+    field: "dzwt_id",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "wtff",
+    field: "wtff",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "tcfa",
+    field: "tcfa",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "tccg",
+    field: "tccg",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+]

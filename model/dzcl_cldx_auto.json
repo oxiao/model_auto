@@ -1,0 +1,39 @@
+/** dzcl_cldx */
+[
+  {
+    name: "xdxx_id",
+    field: "xdxx_id",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "bh",
+    field: "bh",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "mc",
+    field: "mc",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "xd",
+    field: "xd",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+]
