@@ -1,0 +1,48 @@
+/** jxgc_bhmz_mzxt */
+[
+  {
+    name: "mzxt_id",
+    field: "mzxt_id",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "bhmz_id",
+    field: "bhmz_id",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "dh",
+    field: "dh",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "zbx",
+    field: "zbx",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "zby",
+    field: "zby",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+]

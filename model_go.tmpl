@@ -1,0 +1,10 @@
+package {{.PackageName}}
+
+import (
+	"time"
+)
+
+type {{.ExportModelName}} struct {
+Model
+{{range .TableSchema}} {{.ColumnName | ExportColumn}} {{.DataType | TypeConvert}} {{. | Tags}} // {{.ColumnComment}}
+{{end}}}

@@ -2,10 +2,136 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bdf9370-579e-444c-8dd1-8518b8039f0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/model.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/model.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_auto" beforeDir="false" afterPath="$PROJECT_DIR$/model_auto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/model_go.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_account_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_dict_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_employee_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_employee_bank_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_employee_education_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_employee_equipment_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_employee_family_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_employee_health_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_employee_menu_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_employee_org_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_employee_role_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_employee_skill_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_employee_work_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_fetch_log_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_fetch_task_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_file_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_job_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_jobtitle_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_log_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_mis_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_mis_link_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_org_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_parm_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_role_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_role_menu_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_session_token_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_template_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_train_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bm_worktype_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/dzcl_cldx_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/dzcl_cldxd_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/dzgz_dc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/dzgz_qt_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/dzkt_dmzk_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/dzkt_jxtmk_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_bhmz_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_bhmz_mzxt_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_ckq_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_fcwx_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_jc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_ndjxjh_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_sc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_cq_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_dzwt_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_gzm_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_gzmdzbg_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_jd_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_jjgzm_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_jjgzm_jc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_jjgzm_sc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_jjgzm_sgrz_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_jt_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_jxgzm_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_jxgzm_jc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_kcgk_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_sp_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_xd_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_xd_dm_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_xdbz_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgc_zkzt_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/jxgz_jhctx_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mc_gyfx_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mc_hcml_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mc_ktml_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mc_mcbzxsy_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mc_my_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mc_mz_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mc_zbml_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mcdz_mc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mcdz_yc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mk_aqscxkz_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mk_jbxx_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mk_kczgz_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mk_scxkz_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mksb_dqdjbz_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mksb_rcdj_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mksb_sb_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mksb_sbdjbz_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mksb_sbdy_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mksb_sbqy_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mksb_wx_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mksb_xh_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mz_cmzy_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mz_fzjg_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mz_gysy_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mz_hxgc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/pm_fetch_define_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/swdz_kjts_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wscc_hjjc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wscc_jc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wscc_jcmx_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wscc_zksg_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wscc_zksj_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsfc_dkwsyc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsfc_hcmyc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsfc_jjmyc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsfc_mcwscs_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsfc_wsdjjd_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsfc_wsdzgl_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsfc_wsfcxx_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsfc_wsfhd_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsfc_yswshl_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsft_ftsj_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsft_jb_aqfh_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsft_jb_yc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsft_jb_yj_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsft_kjsl_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsft_qy_bhc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsft_qy_bhcxg_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsft_qy_qyxx_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsft_qy_yczb_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsft_zkbd_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wsft_zkbdjl_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wssg_aqyh_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wssg_bz_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wssg_tcsg_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/wssg_xlkjtc_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/zycl_fcqzycl_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/zycl_fspzycl_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/zycl_lnkcwczb_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/zycl_mcqcl_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/zycl_mczycl_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/zycl_mtcl_auto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/zycl_mzzycl_auto.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/.flake8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/.travis.yml" beforeDir="false" />
@@ -107,39 +233,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="44" column="36" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="36" />
+            <state relative-caret-position="1041">
+              <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="35" column="4" selection-start-line="35" selection-end-line="35" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_go.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_json.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model.tmpl.bak">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="194" selection-start-line="194" selection-end-line="194" />
+            <state relative-caret-position="3196">
+              <caret line="202" column="10" selection-start-line="202" selection-start-column="7" selection-end-line="202" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -164,10 +299,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/model.tmpl" />
-        <option value="$PROJECT_DIR$/model.go" />
         <option value="$PROJECT_DIR$/model/bm_dict_auto.go" />
+        <option value="$PROJECT_DIR$/model.tmpl" />
         <option value="$PROJECT_DIR$/base.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/model.go" />
+        <option value="$PROJECT_DIR$/model_json.tmpl" />
       </list>
     </option>
   </component>
@@ -184,7 +321,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,12 +330,18 @@
             </path>
             <path>
               <item name="model_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="model_auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,15 +385,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1052" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2683706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3296582" />
@@ -259,10 +397,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,34 +418,11 @@
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/b3_pipe_articles_auto.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/b3_pipe_correlations_auto.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/b3_pipe_comments_auto.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/b3_pipe_archives_auto.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/bm_employee_family_auto.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/bm_employee_org_auto.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/bm_employee_health_auto.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/b3_pipe_categories_auto.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model/b3_pipe_correlations_auto.go" />
+    <entry file="file://$PROJECT_DIR$/model/b3_pipe_comments_auto.go" />
+    <entry file="file://$PROJECT_DIR$/model/bm_employee_family_auto.go" />
+    <entry file="file://$PROJECT_DIR$/model/bm_employee_health_auto.go" />
+    <entry file="file://$PROJECT_DIR$/model/b3_pipe_categories_auto.go" />
     <entry file="file:///usr/local/golang/src/fmt/print.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -310,12 +430,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="36" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/model/zycl_mcqcl_auto.go" />
+    <entry file="file://$PROJECT_DIR$/model/bm_dict_auto.go" />
+    <entry file="file://$PROJECT_DIR$/model/mksb_sbtz_auto.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/bm_account_auto.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/model.tmpl.bak">
       <provider selected="true" editor-type-id="text-editor">
@@ -324,44 +445,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/zycl_mcqcl_auto.go">
+    <entry file="file://$PROJECT_DIR$/model/bm_employee_auto.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <element signature="e#15#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="8" column="99" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/bm_dict_auto.go">
+    <entry file="file:///usr/local/gopath/src/github.com/koalaone/model_auto/model.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="193">
+          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/bm_account_auto.go">
+    <entry file="file:///usr/local/golang/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/bm_employee_org_auto.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/bm_employee_org_auto.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.tmpl">
+    <entry file="file://$PROJECT_DIR$/model/bm_employee_auto.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/bm_account_auto.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/b3_pipe_archives_auto.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state>
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.go">
+    <entry file="file://$PROJECT_DIR$/model/bm_template_auto.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/b3_pipe_bm_dicts_auto.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/b3_pipe_archives_auto.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/bm_employee_equipment_auto.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/bm_employee_equipment_auto.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_go.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_json.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/b3_pipe_articles_auto.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1041">
+          <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="425">
+          <caret line="35" column="4" selection-start-line="35" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/b3_pipe_articles_auto.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="5" selection-start-line="7" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3196">
+          <caret line="202" column="10" selection-start-line="202" selection-start-column="7" selection-end-line="202" selection-end-column="10" />
         </state>
       </provider>
     </entry>

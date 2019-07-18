@@ -1,0 +1,48 @@
+/** wsfc_dkwsyc */
+[
+  {
+    name: "yc_id",
+    field: "yc_id",
+    label: "f_id",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "sj",
+    field: "sj",
+    label: "时间",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "mc_id",
+    field: "mc_id",
+    label: "煤层",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "dd",
+    field: "dd",
+    label: "地点",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "xx",
+    field: "xx",
+    label: "异常现象",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+]

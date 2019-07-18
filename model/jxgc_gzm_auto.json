@@ -1,0 +1,48 @@
+/** jxgc_gzm */
+[
+  {
+    name: "gzm_id",
+    field: "gzm_id",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "mc_id",
+    field: "mc_id",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "sp_id",
+    field: "sp_id",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "mc",
+    field: "mc",
+    label: "",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+  {
+    name: "lx",
+    field: "lx",
+    label: "采煤工作面，掘进工作面，巷道工作面",
+    sortable: true,
+    align: "center",
+    classes: "",
+    style: "",
+  },
+]

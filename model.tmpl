@@ -1,9 +1,0 @@
-package {{.PackageName}}
-
-import (
-	"time"
-)
-
-type {{.ExportModelName}} struct {
-{{range .TableSchema}} {{.ColumnName | ExportColumn}} {{.DataType | TypeConvert}} {{. | Tags}} // {{.ColumnComment}}
-{{end}}}

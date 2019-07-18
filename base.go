@@ -25,6 +25,14 @@ import (
 	"strings"
 )
 
+func Tags3(columnName string) template.HTML {
+	return template.HTML("\"" + columnName + "\"")
+}
+func ExportLabel(columnName string) template.HTML {
+	return template.HTML("\"" + columnName + "\"")
+}
+
+
 func Tags1(columnName string) template.HTML {
 	return template.HTML("`json:\"" + columnName + "\"`")
 }

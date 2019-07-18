@@ -25,8 +25,6 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
-	"os/exec"
-
 	//"os/exec"
 	"path"
 	"path/filepath"
@@ -60,7 +58,7 @@ func DBInit(dbName, user, password, host, port string) (err error) {
 	return nil
 }
 
-func ModelGenerate(importName, tableName string) error {
+func ModelGenerate(importName, tableName string, tplFile string) error {
 	type TableInfo struct {
 		TableName string `json:"table_name"`
 	}
@@ -70,7 +68,7 @@ func ModelGenerate(importName, tableName string) error {
 		return err
 	}
 
-	modelData, err := ioutil.ReadFile("./model.tmpl")
+	modelData, err := ioutil.ReadFile(tplFile)
 	if err != nil {
 		fmt.Println("read tplFile err:", err)
 		return err
@@ -86,11 +84,18 @@ func ModelGenerate(importName, tableName string) error {
 			"MakeQuestionMarkList": MakeQuestionMarkList,
 			"ColumnAndType":        ColumnAndType,
 			"ColumnWithPostfix":    ColumnWithPostfix,
+			"Tags3":    			Tags3,
+			"ExportLabel":    		ExportLabel,
 		}).Parse(string(modelData)))
+
+	subs := strings.Split(tplFile, "/")
+	fileType := subs[len(subs) -1]
+	fileType = strings.Split(fileType, ".")[0]
+	fileType = strings.Split(fileType, "_")[1]
 
 	for _, table := range tablaNames {
 		if (tableName == "") || (tableName != "" && tableName == table.TableName) {
-			err := genModelFile(render, importName, table.TableName)
+			err := genModelFile(render, importName, table.TableName, fileType)
 			if err != nil {
 				fmt.Println("genModelFile err:", err)
 				return err
@@ -120,7 +125,7 @@ type TableSchema struct {
 	ColumnComment string `db:"column_comment" json:"column_comment"`
 }
 
-func genModelFile(render *template.Template, importName, tableName string) error {
+func genModelFile(render *template.Template, importName, tableName string, fileType string) error {
 	if tableName == "" {
 		return nil
 	}
@@ -154,7 +159,7 @@ func genModelFile(render *template.Template, importName, tableName string) error
 	}
 
 	fileName := path.Base("") + string(filepath.Separator) + packageName + string(filepath.Separator) +
-		strings.ToLower(tableName) + "_auto.go"
+		strings.ToLower(tableName) + "_auto." + fileType
 	if IsExist(fileName) {
 		err = os.Remove(fileName)
 		if err != nil {
@@ -183,12 +188,12 @@ func genModelFile(render *template.Template, importName, tableName string) error
 	if err := render.Execute(f, model); err != nil {
 		log.Fatal(err)
 	}
-	cmd := exec.Command("goimports", "-w", fileName)
-	err = cmd.Run()
-	if err != nil {
-		fmt.Println("format go code error:", err.Error())
-		return err
-	}
+	//cmd := exec.Command("goimports", "-w", fileName)
+	//err = cmd.Run()
+	//if err != nil {
+	//	fmt.Println("format go code error:", err.Error())
+	//	return err
+	//}
 
 	return nil
 }

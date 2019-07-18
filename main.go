@@ -68,7 +68,8 @@ func main() {
 			return err
 		}
 
-		err = ModelGenerate(importName, tableName)
+		err = ModelGenerate(importName, tableName, "./model_go.tmpl")
+		err = ModelGenerate(importName, tableName, "./model_json.tmpl")
 		if err != nil {
 			return err
 		}
