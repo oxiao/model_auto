@@ -1,231 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bdf9370-579e-444c-8dd1-8518b8039f0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/base.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/model.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/model_go.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_account_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_dict_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_employee_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_employee_bank_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_employee_education_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_employee_equipment_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_employee_family_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_employee_health_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_employee_menu_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_employee_org_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_employee_role_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_employee_skill_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_employee_work_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_fetch_log_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_fetch_task_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_file_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_job_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_jobtitle_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_log_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_mis_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_mis_link_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_org_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_parm_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_role_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_role_menu_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_session_token_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_template_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_train_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/bm_worktype_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/dzcl_cldx_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/dzcl_cldxd_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/dzgz_dc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/dzgz_qt_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/dzkt_dmzk_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/dzkt_jxtmk_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_bhmz_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_bhmz_mzxt_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_ckq_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_fcwx_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_jc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_ndjxjh_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_cmgzm_sc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_cq_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_dzwt_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_gzm_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_gzmdzbg_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_jd_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_jjgzm_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_jjgzm_jc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_jjgzm_sc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_jjgzm_sgrz_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_jt_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_jxgzm_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_jxgzm_jc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_kcgk_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_sp_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_xd_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_xd_dm_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_xdbz_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgc_zkzt_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/jxgz_jhctx_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mc_gyfx_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mc_hcml_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mc_ktml_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mc_mcbzxsy_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mc_my_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mc_mz_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mc_zbml_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mcdz_mc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mcdz_yc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mk_aqscxkz_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mk_jbxx_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mk_kczgz_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mk_scxkz_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mksb_dqdjbz_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mksb_rcdj_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mksb_sb_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mksb_sbdjbz_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mksb_sbdy_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mksb_sbqy_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mksb_wx_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mksb_xh_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mz_cmzy_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mz_fzjg_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mz_gysy_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/mz_hxgc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/pm_fetch_define_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/swdz_kjts_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wscc_hjjc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wscc_jc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wscc_jcmx_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wscc_zksg_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wscc_zksj_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsfc_dkwsyc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsfc_hcmyc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsfc_jjmyc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsfc_mcwscs_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsfc_wsdjjd_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsfc_wsdzgl_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsfc_wsfcxx_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsfc_wsfhd_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsfc_yswshl_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsft_ftsj_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsft_jb_aqfh_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsft_jb_yc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsft_jb_yj_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsft_kjsl_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsft_qy_bhc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsft_qy_bhcxg_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsft_qy_qyxx_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsft_qy_yczb_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsft_zkbd_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wsft_zkbdjl_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wssg_aqyh_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wssg_bz_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wssg_tcsg_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/wssg_xlkjtc_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/zycl_fcqzycl_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/zycl_fspzycl_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/zycl_lnkcwczb_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/zycl_mcqcl_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/zycl_mczycl_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/zycl_mtcl_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/zycl_mzzycl_auto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/.flake8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/app.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/appveyor.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/category.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/cli.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/command.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/context.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/errors.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/flag-types.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/flag.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/flag_generated.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/funcs.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/generate-flag-types" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/help.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/codegangsta/cli/runtests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/appengine.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/auth.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/buffer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/collations.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/connection.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/connection_go18.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/const.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/driver.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/dsn.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/errors.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/fields.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/infile.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/packets.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/result.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/rows.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/statement.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/transaction.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/utils.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/utils_go17.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/utils_go18.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/.codeclimate.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/License" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/association.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_create.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_delete.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_query.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_query_preload.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_row_query.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_save.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_update.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_common.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_mysql.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_postgres.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_sqlite3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialects/mysql/mysql.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/errors.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/field.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/interface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/join_table_handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/logger.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/model_struct.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/naming.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/scope.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/search.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/test_all.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/utils.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/wercker.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/inflections.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/wercker.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/shopspring/decimal/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/shopspring/decimal/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/shopspring/decimal/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/shopspring/decimal/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/shopspring/decimal/decimal-go.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/shopspring/decimal/decimal.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/shopspring/decimal/rounding.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="1bdf9370-579e-444c-8dd1-8518b8039f0d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1041">
-              <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+            <state relative-caret-position="531">
+              <caret line="71" column="71" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -246,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="-187">
               <caret line="35" column="4" selection-start-line="35" selection-end-line="35" selection-end-column="4" />
             </state>
           </provider>
@@ -255,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_go.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="102">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -265,7 +41,16 @@
         <entry file="file://$PROJECT_DIR$/model_json.tmpl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="8" />
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list_go.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -273,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3196">
-              <caret line="202" column="10" selection-start-line="202" selection-start-column="7" selection-end-line="202" selection-end-column="10" />
+            <state relative-caret-position="2129">
+              <caret line="181" column="49" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -305,6 +90,7 @@
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/model.go" />
         <option value="$PROJECT_DIR$/model_json.tmpl" />
+        <option value="$PROJECT_DIR$/list_go.tmpl" />
       </list>
     </option>
   </component>
@@ -327,11 +113,6 @@
             <path>
               <item name="model_auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="model_auto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="model_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="model_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="model_auto" type="b2602c69:ProjectViewProjectNode" />
@@ -385,9 +166,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1052" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2683706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27103302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -400,7 +180,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -504,36 +284,8 @@
     <entry file="file://$PROJECT_DIR$/model/bm_employee_equipment_auto.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_go.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_json.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/b3_pipe_articles_auto.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1041">
-          <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="35" column="4" selection-start-line="35" selection-end-line="35" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/b3_pipe_articles_auto.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -542,10 +294,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="71" column="71" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_json.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_go.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="35" column="4" selection-start-line="35" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_go.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3196">
-          <caret line="202" column="10" selection-start-line="202" selection-start-column="7" selection-end-line="202" selection-end-column="10" />
+        <state relative-caret-position="2129">
+          <caret line="181" column="49" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="49" />
         </state>
       </provider>
     </entry>
