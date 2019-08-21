@@ -58,12 +58,14 @@ func DBInit(dbName, user, password, host, port string) (err error) {
 	return nil
 }
 
+type TableInfo struct {
+	TableName    string `json:"table_name"`
+	TableComment string `json:"table_comment"`
+}
+
 func ModelGenerate(importName, tableName string, tplFile string) error {
-	type TableInfo struct {
-		TableName string `json:"table_name"`
-	}
 	var tablaNames []TableInfo
-	err := instanceMysql.Raw(`SELECT table_name as table_name from tables where table_schema = ? `, DbName).Find(&tablaNames).Error
+	err := instanceMysql.Raw(`SELECT table_name as table_name, TABLE_COMMENT as table_comment from tables where table_schema = ? `, DbName).Find(&tablaNames).Error
 	if err != nil {
 		return err
 	}
@@ -84,20 +86,20 @@ func ModelGenerate(importName, tableName string, tplFile string) error {
 			"MakeQuestionMarkList": MakeQuestionMarkList,
 			"ColumnAndType":        ColumnAndType,
 			"ColumnWithPostfix":    ColumnWithPostfix,
-			"Tags3":    			Tags3,
-			"ExportLabel":    		ExportLabel,
+			"Tags3":                Tags3,
+			"ExportLabel":          ExportLabel,
 		}).Parse(string(modelData)))
 
 	subs := strings.Split(tplFile, "/")
-	fileType := subs[len(subs) -1]
+	fileType := subs[len(subs)-1]
 	fileType = strings.Split(fileType, ".")[0]
 	fileType = strings.Split(fileType, "_")[1]
 
 	nameStr := ""
 	for _, table := range tablaNames {
-		nameStr = nameStr + "&model." + HumpStructName(table.TableName) + "{}, "
+		nameStr = nameStr + "&" + HumpStructName(table.TableName) + "{}, "
 		if (tableName == "") || (tableName != "" && tableName == table.TableName) {
-			err := genModelFile(render, importName, table.TableName, fileType)
+			err := genModelFile(render, importName, &table, fileType)
 			if err != nil {
 				fmt.Println("genModelFile err:", err)
 				return err
@@ -123,20 +125,22 @@ type ModelInfo struct {
 	PackageName     string
 	ModelName       string
 	TableSchema     *[]TableSchema
+	TableComment    string
 }
 
 type TableSchema struct {
 	ColumnName    string `db:"column_name" json:"column_name"`
 	DataType      string `db:"data_type" json:"data_type"`
-	ColumnType      string `db:"column_type" json:"column_type"`
+	ColumnType    string `db:"column_type" json:"column_type"`
 	ColumnKey     string `db:"column_key" json:"column_key"`
 	ColumnComment string `db:"column_comment" json:"column_comment"`
 }
 
-func genModelFile(render *template.Template, importName, tableName string, fileType string) error {
-	if tableName == "" {
+func genModelFile(render *template.Template, importName string, table *TableInfo, fileType string) error {
+	if table == nil {
 		return nil
 	}
+	tableName := table.TableName
 
 	var tableSchema []TableSchema
 	err := instanceMysql.Raw(`SELECT column_name as column_name, column_type as column_type, data_type as data_type,column_key as column_key,`+
@@ -157,17 +161,17 @@ func genModelFile(render *template.Template, importName, tableName string, fileT
 		packageName = path.Base(importName)
 	}
 
-	dirPath := path.Base("") + string(filepath.Separator) + packageName + string(filepath.Separator)
+	dirPath := path.Base("") + string(filepath.Separator) + packageName + string(filepath.Separator) +
+		fileType + string(filepath.Separator)
 	if !IsExist(dirPath) {
-		err = os.Mkdir(dirPath, os.ModePerm)
+		err = os.MkdirAll(dirPath, os.ModePerm)
 		if err != nil {
 			fmt.Println(err)
 			return err
 		}
 	}
 
-	fileName := path.Base("") + string(filepath.Separator) + packageName + string(filepath.Separator) +
-		strings.ToLower(tableName) + "_auto." + fileType
+	fileName := dirPath + strings.ToLower(tableName) + "_auto." + fileType
 	if IsExist(fileName) {
 		err = os.Remove(fileName)
 		if err != nil {
@@ -191,16 +195,20 @@ func genModelFile(render *template.Template, importName, tableName string, fileT
 		TableName:       tableName,
 		ModelName:       tableName,
 		TableSchema:     &tableSchema,
+		TableComment:    table.TableComment,
 	}
 
 	if err := render.Execute(f, model); err != nil {
 		log.Fatal(err)
 	}
-	//cmd := exec.Command("goimports", "-w", fileName)
-	//err = cmd.Run()
-	//if err != nil {
-	//	fmt.Println("format go code error:", err.Error())
-	//	return err
+
+	//if "go" == fileType {
+	//	cmd := exec.Command("goimports", "-w", fileName)
+	//	err = cmd.Run()
+	//	if err != nil {
+	//		fmt.Println("format go code error:", err.Error())
+	//		return err
+	//	}
 	//}
 
 	return nil

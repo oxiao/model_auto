@@ -32,14 +32,13 @@ func ExportLabel(columnName string) template.HTML {
 	return template.HTML("\"" + columnName + "\"")
 }
 
-
 func Tags1(columnName string) template.HTML {
 	return template.HTML("`json:\"" + columnName + "\"`")
 }
-func Tags2(column TableSchema) template.HTML {
+func Tags(column TableSchema) template.HTML {
 	pk := ""
 	idx := ""
-	if column.ColumnKey=="PRI" {
+	if column.ColumnKey == "PRI" {
 		pk = ";primary_key"
 		idx = "sql:\"unique_index\" "
 	}
@@ -50,10 +49,10 @@ func Tags2(column TableSchema) template.HTML {
 	//fmt.Println(gormStr)
 	return template.HTML(gormStr)
 }
-func Tags(column TableSchema) template.HTML {
+func Tags2(column TableSchema) template.HTML {
 	pk := ""
 	idx := ""
-	if column.ColumnKey=="PRI" {
+	if column.ColumnKey == "PRI" {
 		pk = ";unique;unique_index;not null"
 	}
 

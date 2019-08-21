@@ -69,7 +69,7 @@ func main() {
 		}
 
 		err = ModelGenerate(importName, tableName, "./model_go.tmpl")
-		err = ModelGenerate(importName, tableName, "./model_json.tmpl")
+		err = ModelGenerate(importName, tableName, "./model_js.tmpl")
 		if err != nil {
 			return err
 		}
