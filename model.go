@@ -145,7 +145,7 @@ func genModelFile(render *template.Template, importName string, table *TableInfo
 	var tableSchema []TableSchema
 	err := instanceMysql.Raw(`SELECT column_name as column_name, column_type as column_type, data_type as data_type,column_key as column_key,`+
 		`column_comment as column_comment from COLUMNS `+
-		` where TABLE_NAME= ? and table_schema = ? `, tableName, DbName).Find(&tableSchema).Error
+		` where TABLE_NAME= ? and table_schema = ? and column_name not in ('created_at', 'updated_at', 'deleted_at')`, tableName, DbName).Find(&tableSchema).Error
 	if err != nil {
 		fmt.Println(err)
 		return err

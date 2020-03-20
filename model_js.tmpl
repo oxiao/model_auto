@@ -8,6 +8,7 @@ const {{.TableName}} = [{{range .TableSchema}}
     align: "center",
     classes: "",
     style: "",
+    type: {{.DataType | ExportLabel}},
   },{{end}}
 ]
 
